@@ -2,9 +2,11 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-npm clone 
+First, 'npm clone https://github.com/athompson2027/Weather-Website.git' in your Terminal
 
-Second, run the development server:
+Second, 'npm install'
+
+Third, run the development server:
 
 ```bash
 npm run dev
