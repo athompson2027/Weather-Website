@@ -1,10 +1,16 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
 
-npm clone 
+<h1>This is a Weather Website</h1>
 
-Second, run the development server:
+<h2>You can choose when, where, and what units you want to see your weather in </h2>
+
+
+First, `npm clone https://github.com/athompson2027/Weather-Website.git` in your Terminal
+
+Second, `npm install`
+
+Third, run the development server using:
 
 ```bash
 npm run dev
