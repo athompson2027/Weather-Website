@@ -1,26 +1,126 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+body{
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+h1{
+  font-size: 50px !important;
+  font-family: Geneva;
+  padding-bottom: 5px;
+  text-align: center;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+h2{
+  font-size: 30px !important;
+  font-family: Verdana;
+  text-align: center !important;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+button {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 8px 14px;
+  border: 1.5px solid #60a5fa;
+  color: inherit;
+  transition: all 0.67s ease-in-out; 
+  margin: 4px;
+}
+
+button:hover {
+  background-color: #60a5fa;
+  color: white;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+.left{
+  align-items: left !important;
+}
+
+.right{
+  align-items: right !important;
+}
+
+
+.underborder{
+  letter-spacing: 0.8px;
+}
+
+.underborder::after{
+  content: '';
+  display: block;
+  transform: translate(50%,0);
+  width: 50%;
+  border-bottom: 1.6px solid #025c8a;
+  margin-top: 6px;
+
+}
+
+.base{
+  font-weight: 10;
+  min-height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seperate{
+  border-bottom: 1px solid gray;  
+}
+
+.box{
+  border: 1px solid gray;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.spacing{
+   padding: 65px 15px;
+   align-items: center !important;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;                
+  justify-content: center;    
+  column-gap:inherit;
+  margin-top: 15px;
+}
+
+.small_spacing{
+  padding: 10px;
+}
+
+
+.tabulation {
+  display: inline-block;
+  border: 1px solid gray;
+  padding: 8px 12px;
+  border-radius: 10px;
+  text-align: center !important;
+  background-color: rgba(255, 255, 255, 0.08);
+  transition: all 0.3s ease;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  margin: 10px;
+  min-width: 180px;
+}
+
+.tabulation:hover {
+  background-color: rgba(96, 165, 250, 0.15); 
+  border-color: #60a5fa;
+}
+
+.middle{
+  align-items: center;
+  justify-content: center;
 }
