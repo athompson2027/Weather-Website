@@ -5,7 +5,8 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 <h2>You can choose when, where, and what units you want to see your weather in </h2>
 
-![See the When](https://github.com/athompson2027/Weather-Website/blob/main/src/app/giphy%20(1).mp4)
+[![See the When](https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg)](https://github.com/athompson2027/Weather-Website/blob/main/src/app/giphy%20(1).mp4) 
+
 
 First, `npm clone https://github.com/athompson2027/Weather-Website.git` in your Terminal
 
