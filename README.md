@@ -7,7 +7,9 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ![See the When](https://github.com/athompson2027/Weather-Website/blob/main/src/app/giphy.gif)
 
+![See the Where](https://github.com/athompson2027/Weather-Website/blob/main/src/app/giphy%20(1).gif)
 
+![See the What](https://github.com/athompson2027/Weather-Website/blob/main/src/app/giphy%20(2).gif)
 First, `npm clone https://github.com/athompson2027/Weather-Website.git` in your Terminal
 
 Second, `npm install`
