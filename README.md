@@ -10,9 +10,9 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ![See the Where](https://github.com/athompson2027/Weather-Website/blob/main/src/app/giphy%20(1).gif)
 
 ![See the What](https://github.com/athompson2027/Weather-Website/blob/main/src/app/giphy%20(2).gif)
-First, `npm clone https://github.com/athompson2027/Weather-Website.git` in your Terminal
+First, Open VS Code and open the Explorer tab
 
-Second, `npm install`
+Second, click "Clone Repository" and enter this link `https://github.com/athompson2027/Weather-Website.git`
 
 Third, run the development server using:
 
