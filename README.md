@@ -14,7 +14,9 @@ First, Open VS Code and open the Explorer tab
 
 Second, click "Clone Repository" and enter this link `https://github.com/athompson2027/Weather-Website.git`
 
-Third, run the development server using:
+Third, run `npm install` to insall dependancies
+
+Fourth, run the development server using:
 
 ```bash
 npm run dev
